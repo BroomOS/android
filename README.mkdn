@@ -6,12 +6,12 @@ Getting Started
 **Initialize local repository (thanks to apon77 for repo init script)**
 
 ```bash
-repo init --depth=1 --no-repo-verify -u https://github.com/BroomOS/android -b thirteen -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/BroomOS/android -b T -g default,-mips,-darwin,-notdefault
 ```
 **in case of repo syncing failures try this instead**
 
 ```bash
-repo init -u https://github.com/BroomOS/android -b thirteen
+repo init -u https://github.com/BroomOS/android -b T
 ```
 
 **Sync up with this command:**
